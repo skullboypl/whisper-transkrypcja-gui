@@ -22,10 +22,6 @@ Dzięki otwartemu kodowi, Whisper jest dostępny do użycia za darmo na komputer
 ## 🖼️ Zrzut ekranu
 ![Zrzut ekranu GUI](https://skullmedia.pl/wp-content/uploads/2025/04/EA6165C1-8144-4C3C-A33A-BA1D8A0752ED.png)
 
-## 🚀 Możesz pobrać .exe z RELEASE i odpalić bez potrzeby instalacji zmiennych Pythona
-
-👍 Plik .exe do prostego uruchamiania możesz pobrać z Google Drive: https://drive.google.com/drive/folders/1QZgG38O5klc8T5bM8AmrFdelGvb7JLZH?usp=drive_link
-
 ## 🚀 Jak uruchomić (Python)
 
 1. Zainstaluj zależności:
