@@ -47,21 +47,11 @@ Dzięki otwartemu kodowi, Whisper jest dostępny do użycia za darmo na komputer
 
    lub po prostu odpalając za pomocą Pythona.
 
-## 🚀 Przyspiesz transkrypcje dzięki CUDA w karcie graficznej ()
+## 🚀 Przyspiesz transkrypcje dzięki CUDA w karcie graficznej (PyTorch)
 
 # 🖥️ Obsługa CUDA (dla użytkowników z GPU)
 
-Aby używać GPU z **PyTorch**, musisz zainstalować odpowiednią wersję **PyTorch** z obsługą CUDA. Poniżej znajdziesz instrukcje, jak skonfigurować środowisko z obsługą CUDA.
-
-## Jak sprawdzić wersję CUDA w systemie
-
-Aby sprawdzić, jaka wersja CUDA jest zainstalowana na Twoim systemie, użyj poniższego polecenia w terminalu:
-
-```bash
-nvcc --version
-```
-
-To polecenie wyświetli wersję zainstalowanej **CUDA Toolkit**.
+Aby używać GPU z **PyTorch**, musisz zainstalować odpowiednią wersję **PyTorch** z obsługą CUDA. Poniżej znajdziesz instrukcje, jak skonfigurować środowisko z obsługą CUDA..
 
 ## Instalacja PyTorch z CUDA
 
@@ -83,27 +73,6 @@ pip install torch==1.9.0+cu102 torchvision==0.10.0+cu102 torchaudio==0.9.0 -f ht
 
 ### Inne wersje CUDA:
 Możesz również zainstalować inną wersję PyTorch dla innej wersji **CUDA**. Odwiedź stronę [PyTorch Get Started](https://pytorch.org/get-started/locally/) i wybierz odpowiednią wersję dla swojego systemu.
-
-## Instalacja CUDA Toolkit i sterowników NVIDIA
-
-Aby korzystać z GPU w PyTorch, należy również zainstalować **CUDA Toolkit** oraz odpowiednie sterowniki NVIDIA.
-
-1. Przejdź na stronę pobierania **CUDA Toolkit**: [CUDA Toolkit Download](https://developer.nvidia.com/cuda-toolkit).
-2. Pobierz wersję **CUDA** odpowiednią do Twojego systemu operacyjnego.
-3. Zainstaluj **CUDA Toolkit** i **NVIDIA drivers** zgodnie z instrukcjami na stronie.
-4. Upewnij się, że wersja **CUDA Toolkit** jest kompatybilna z Twoim systemem i wersją PyTorch.
-
-## Ustawienie zmiennej środowiskowej (opcjonalne)
-
-W zależności od systemu operacyjnego, możesz również potrzebować ustawić zmienne środowiskowe dla **CUDA**.
-
-Na przykład na Windowsie:
-1. Otwórz **Panel sterowania** → **System** → **Zaawansowane ustawienia systemu** → **Zmienne środowiskowe**.
-2. W sekcji **Zmienne systemowe** dodaj do zmiennej `Path` ścieżkę do folderu `bin` w zainstalowanym CUDA, np. `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin`.
-
-Po tych krokach PyTorch będzie mógł korzystać z Twojego GPU do przyspieszenia obliczeń.
-
----
 
 
 ## 📁 Wymagania
