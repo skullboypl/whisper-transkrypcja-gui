@@ -33,8 +33,9 @@ pip install customtkinter openai-whisper torch
 
 3. Uruchom: 
 ```bash
-python main.py
+python transcriber_gui.pyw
 ```
+lub po prostu odpalając za pomocą pythona
 
 ## 📦 Wersja EXE
 Możesz zbudować wersję `.exe` (która nie wymaga instalowania Pythona):
@@ -43,8 +44,8 @@ Możesz zbudować wersję `.exe` (która nie wymaga instalowania Pythona):
 pyinstaller --onefile --windowed --icon=icon.ico \
   --hidden-import=whisper --hidden-import=ffmpeg \
   --add-data="ffmpeg.exe;." \
-  --distpath "./EXE" main.py
-```
+  --distpath "./EXE" transcriber_gui.pyw
+``` 
 
 W katalogu `EXE/` znajdziesz gotowy plik `main.exe`
 
