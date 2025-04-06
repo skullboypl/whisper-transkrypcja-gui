@@ -21,6 +21,7 @@ Dzięki otwartemu kodowi, Whisper jest dostępny do użycia za darmo na komputer
 
 ## 🖼️ Zrzut ekranu
 ![Zrzut ekranu GUI](https://skullmedia.pl/wp-content/uploads/2025/04/EA6165C1-8144-4C3C-A33A-BA1D8A0752ED.png)
+[Zobacz Video z działania programu](https://youtu.be/EqQ3MZoVaYI)
 
 ## 🚀 Jak uruchomić (Python)
  
