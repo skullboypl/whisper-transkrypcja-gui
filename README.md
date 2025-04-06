@@ -23,31 +23,30 @@ Dzięki otwartemu kodowi, Whisper jest dostępny do użycia za darmo na komputer
 ![Zrzut ekranu GUI](https://skullmedia.pl/wp-content/uploads/2025/04/EA6165C1-8144-4C3C-A33A-BA1D8A0752ED.png)
 
 ## 🚀 Jak uruchomić (Python)
+ 
+1. **Zainstaluj Pythona**:
+   Pobierz i zainstaluj Pythona z [oficjalnej strony Pythona](https://www.python.org/downloads/).
 
-1. Zainstaluj zależności:
-```bash
-pip install customtkinter openai-whisper torch
-```
+2. **Zainstaluj zależności**:
+   Otwórz terminal (np. PowerShell) i zainstaluj wymagane pakiety za pomocą poniższego polecenia:
 
-2. (Opcjonalnie) pobierz `ffmpeg.exe` i wrzuć do folderu z aplikacją
+   ```bash
+   pip install customtkinter openai-whisper torch
+   ```
 
-3. Uruchom: 
-```bash
-python transcriber_gui.pyw
-```
-lub po prostu odpalając za pomocą pythona
+3. **(Opcjonalnie) pobierz `ffmpeg.exe`**:
+   Pobierz `ffmpeg.exe` ze strony: [FFmpeg](https://ffmpeg.org/download.html).
+   Następnie wrzuć plik `ffmpeg.exe` do folderu z aplikacją.
 
-## 📦 Wersja EXE
-Możesz zbudować wersję `.exe` (która nie wymaga instalowania Pythona):
+4. **Uruchom aplikację**:
+   Uruchom aplikację za pomocą poniższego polecenia:
 
-```bash
-pyinstaller --onefile --windowed --icon=icon.ico \
-  --hidden-import=whisper --hidden-import=ffmpeg \
-  --add-data="ffmpeg.exe;." \
-  --distpath "./EXE" transcriber_gui.pyw
-``` 
+   ```bash
+   python transcriber_gui.pyw
+   ```
 
-W katalogu `EXE/` znajdziesz gotowy plik `main.exe`
+   lub po prostu odpalając za pomocą Pythona.
+
 
 ## 📁 Wymagania
 - Python 3.8+
