@@ -1,0 +1,9 @@
+# Ignorowanie folderów i plików, które nie powinny trafić do repozytorium
+build/
+EXE/
+models/
+
+# Ignorowanie specyficznych plików
+transcriber_gui.spec
+build.bat
+ffmpeg.exe
